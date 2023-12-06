@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: shabnam;
+    src: url(../font/Shabnam-Bold.ttf);
+}
+
+@font-face {
+    font-family: danaReg;
+    src: url(../font/Dana-Regular.ttf);
+}
+
+@font-face {
+    font-family: danaBold;
+    src: url(../font/Dana-Bold.ttf);
+}
+
+@font-face {
+    font-family: danaThin;
+    src: url(../font/Dana-Thin.ttf);
+}
+
+@font-face {
+    font-family: danaBlck;
+    src: url(../font/Dana-Black.ttf);
+}
+
