@@ -5,7 +5,7 @@
 </p>
 
 
-- 🔗 [Demo Project](https://ariaaghakhani.github.io/OZ-STUDIO/)
+- 🔗 [Demo Project](https://react-lendo.vercel.app)
 
 - 👨🏻‍💻 Developed by Aria AG
   
