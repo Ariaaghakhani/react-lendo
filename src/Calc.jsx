@@ -252,7 +252,7 @@ function Calc() {
                 <p className='text-[14px] w-full mb-4'>
                   مدت بازپرداخت
                 </p>
-                <div className='flex text-blueL w-full ' ref={month}>
+                <div className='flex text-blueL w-full flex-wrap ' ref={month}>
                   <div className='cursor-pointer [border:1px_solid_#0AC974] bg-[#0ac97327] text-greenL rounded-md  px-9 py-2 text-[12px] lg:text-[15px] me-2 ' onClick={(e)=>{setInd(e.target.getAttribute('data-index'))}}><span className='font-prBold'>۱۲</span> ماهه </div>
                   <div className='cursor-pointer [border:1px_solid_#0b2c64] rounded-md  px-9 py-2 text-[12px] lg:text-[15px] me-2' onClick={(e)=>{setInd(e.target.getAttribute('data-index'))}}><span className='font-prBold' >۹</span> ماهه </div>
                   <div className='cursor-pointer [border:1px_solid_#0b2c64] rounded-md  px-9 py-2 text-[12px] lg:text-[15px] me-2' onClick={(e)=>{setInd(e.target.getAttribute('data-index'))}}><span className='font-prBold' >۶</span> ماهه </div>

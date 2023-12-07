@@ -105,11 +105,11 @@ function Footer() {
                 <div className='w-full flex lg:hidden text-blueL'>
                     <div className="w-full flex flex-wrap justify-center">
                         <p className='w-fit text-center font-primary mb-8'>لندو در شبکه های اجتماعی</p>
-                        <div className='flex w-full justify-center mx-auto'>
+                        <div className='flex w-full justify-center mx-auto border'>
                             <a href="http://instagram.com/dev.aria.agk" className='border me-8 p-1 w-[36px] h-[36px] flex justify-center items-center rounded-full bg-slate-200'><InstagramIcon sx={{ fontSize: '20px' }} /></a>
                             <a href="http://linkedin.com/in/aria-aghakhani/" className='border me-8 p-1 w-[36px] h-[36px] flex justify-center items-center rounded-full bg-slate-200'><LinkedInIcon sx={{ fontSize: '20px' }} /></a>
                             <a href="https://github.com/Ariaaghakhani" className='border me-8 p-1 w-[36px] h-[36px] flex justify-center items-center rounded-full bg-slate-200'><GitHubIcon sx={{ fontSize: '20px' }} /></a>
-                            <a href="https://dev-aria.com" className='border me-8 p-1 w-[36px] h-[36px] flex justify-center items-center rounded-full bg-slate-200'><LanguageIcon sx={{ fontSize: '20px' }} /></a>
+                            <a href="https://dev-aria.com" className='border p-1 w-[36px] h-[36px] flex justify-center items-center rounded-full bg-slate-200'><LanguageIcon sx={{ fontSize: '20px' }} /></a>
                         </div>
                         <Acc classNamew='w-full' />
                         <div className="w-full bg-white px-4 py-4 rounded-xl flex mb-8">
@@ -133,7 +133,7 @@ function Footer() {
                 </div>
 
             </section>
-            <div className='w-full bg-bgGray py-4 font-prThin text-blueL flex justify-center'>
+            <div className='w-full bg-bgGray py-4 font-prThin text-blueL flex justify-center flex-wrap'>
                 <p className='text-[14px] me-8'>
                 کلیه حقوق این سایت متعلق به <a className='font-primary underline' href="https://www.dev-aria.com">آریا آقاخانی</a> است
                 </p>

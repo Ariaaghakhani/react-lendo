@@ -244,12 +244,14 @@ function How() {
                             مرحله ۶
                         </li>
                     </ul>
-                    <div className='md:hidden flex text-blueT w-[100vw] overflow-hidden justify-center' >
-
-                        <div className={`w-[600vw] h-full duration-300 relative right-[]`} ref={textMobile}> 
 
 
-                            <div className='w-[85vw] top-0 flex flex-wrap px-2 mb-10 translate-x-[100%]'>
+                    <div className='md:hidden flex text-blueT w-[90vw] overflow-hidden justify-center' >
+
+                        <div className={`w-[600vw] h-full duration-300 relative `} ref={textMobile}> 
+
+
+                            <div className='w-[75vw] top-0 flex flex-wrap px-2 mb-10 translate-x-[100%]'>
                                 <h3 className='font-prBlack text-[20px] mb-4'>درخواست وام</h3>
                                 <p className='w-full font-primary text-[15px] text-blueT mb-4 leading-loose '>مبلغ وام و مدت بازپرداخت را انتخاب و درخواست وام خود را ثبت کنید. اگر در بانک آینده حساب ندارید، به‌ صورت آنلاین (با نرم‌افزار <a className='text-[#0082FD] mx-1' href=''>آبانک</a>) یا حضوری مراحل افتتاح حساب را انجام دهید.</p>
                                 <figure className='w-[90%] duration-200 mt-2 mx-auto'>
@@ -259,7 +261,7 @@ function How() {
 
                             {/* Option 1 */}
 
-                            <div className='w-[85vw] absolute top-0 right-0 px-2'>
+                            <div className='w-[75vw] absolute top-0 right-0 px-2'>
                                 <h3 className='font-prBold text-[0.875rem] mb-4'>درخواست وام</h3>
                                 <p className='w-full font-primary text-[15px] text-blueT mb-8 leading-loose '>مبلغ وام و مدت بازپرداخت را انتخاب و درخواست وام خود را ثبت کنید. اگر در بانک آینده حساب ندارید، به‌ صورت آنلاین (با نرم‌افزار <a className='text-[#0082FD] mx-1' href=''>آبانک</a>) یا حضوری مراحل افتتاح حساب را انجام دهید.</p>
                                 <figure className='w-[90%] duration-200 mt-2 mx-auto'>
@@ -269,7 +271,7 @@ function How() {
 
                             {/* Option 2 */}
 
-                            <div className='w-[85vw] absolute top-0 right-[85vw] px-2'>
+                            <div className='w-[75vw] absolute top-0 right-[85vw] px-2'>
                                 <h3 className='font-prBold text-[0.875rem] mb-4'>پرداخت هزینه عملیات و بارگذاری مدارک</h3>
                                 <p className='w-[90%] font-primary text-[15px] text-blueT text-justify mb-8 leading-loose'>حالا باید از طریق حساب کاربری خود، کارمزد و هزینه عملیات لندو را پرداخت کنید و بعد از آن هم مدارک را بارگذاری کنید تا وارد مرحله اعتبارسنجی اولیه شوید.
                                 </p>
@@ -280,7 +282,7 @@ function How() {
 
                             {/* Option 3 */}
 
-                            <div className='w-[85vw] absolute top-0 right-[170vw] px-2'>
+                            <div className='w-[75vw] absolute top-0 right-[170vw] px-2'>
                                 <h3 className='font-prBold text-[0.875rem] mb-4'>ثبت امضای الکترونیکی</h3>
                                 <p className='w-[90%] font-primary text-[15px] text-blueT text-justify mb-8 leading-loose'>
                                     از طریق نرم‌افزار اختصاصی بانک آینده، امضای الکترونیکی خود را ثبت کنید. با این امضا می‌توانید سفته الکترونیکی و قراردادهای لندو و بانک آینده را به‌صورت آنلاین امضا کنید.
@@ -292,7 +294,7 @@ function How() {
 
                             {/* Option 4 */}
 
-                            <div className='w-[85vw] absolute top-0 right-[255vw] px-2'>
+                            <div className='w-[75vw] absolute top-0 right-[255vw] px-2'>
                                 <h3 className='font-prBold text-[0.875rem] mb-4'>
                                     خرید سفته الکترونیکی
                                 </h3>
@@ -306,7 +308,7 @@ function How() {
 
                             {/* Option 5 */}
 
-                            <div className='w-[85vw] absolute top-0 right-[340vw] px-2'>
+                            <div className='w-[75vw] absolute top-0 right-[340vw] px-2'>
                                 <h3 className='font-prBold text-[0.875rem] mb-4'>
                                     امضای قراردادها
                                 </h3>
@@ -320,7 +322,7 @@ function How() {
 
                             {/* Option 6 */}
 
-                            <div className='w-[85vw] absolute top-0 right-[425vw] px-2'>
+                            <div className='w-[75vw] absolute top-0 right-[425vw] px-2'>
                                 <h3 className='font-prBold text-[0.875rem] mb-4'>
                                     تایید نهایی بانک و دریافت وام
 
