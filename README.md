@@ -1,4 +1,4 @@
-# OZ-STUDIO Template :
+# Lendo Template :
 
 <p align="center">
 
@@ -11,7 +11,7 @@
   
 - 🖥️ Created - 2023 Nov 10
   
-- 🤖 Technologies Used - HTML5 , CSS3 , JavaScript , TailwindCSS
+- 🤖 Technologies Used - HTML5 , CSS3 , React , TailwindCSS, MUI , TW-Elements
 
 - 📬 How to reach me : with my
 [Instagram](https://www.instagram.com/dev.aria.agk) ,
